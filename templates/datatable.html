@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OpenAQ Air Quality USA Map</title>
+    <meta name="description" content="Air Quality US Map">
+    <meta name="keywords" content="Air Quality US Map">
+    <link rel='stylesheet' type='text/css' href="{{ url_for('static', filename='css/datatable.css') }}"
+  </head>
+  <body>
+    <div id='cont'>
+      <div id='back-home-cont'>
+        <form action='/'>
+          <button id='back-home-button' type='submit'>back to map</button>
+        </form>
+      </div>
+      <div id='toolbar'>
+        <div class='tool'>
+          <select name='params' onchange='filterParameters()' id='filter-param' class='tool-child' default='Filter Parameter'>
+            <option selected disabled>filter parameter</option>
+           {%for i in range(1, jsoninfo[0] + 1)%}
+              <option value="{{ jsoninfo[i] }}">{{ jsoninfo[i] }}</option>
+            {%endfor%}
+          </select>
+        </div>
+        <div class='tool'>
+          <input id='name-search' class="tool-child" placeholder='Search for name' onkeyup='filterNamesBySearch()'>
+
+          </input>
+        </div>
+        <div class='tool'>
+          <select name="params" class="tool-child">
+           {%for i in range(1, jsoninfo[0] + 1)%}
+              <option value="{{ jsoninfo[i] }}">{{ jsoninfo[i] }}</option>
+            {%endfor%}
+          </select>
+        </div>
+      </div>
+      <table id='data-table'>
+        <tr id='header'>
+          <th>Name</th>
+          <th>Parameter</th>
+          <th>Latitude</th>
+          <th>Longitude</th>
+          <th>Level</th>
+          <th>Date</th>
+        </tr>
+        {%for i in jsoncontent%}
+          <tr class='data-row'>
+            <td>{{jsoncontent[i]['location']['loc']}}</td>
+            <td>{{jsoncontent[i]['params'][0]}}</td>
+            <td>{{jsoncontent[i]['location']['coords'][0]}}</td>
+            <td>{{jsoncontent[i]['location']['coords'][1]}}</td>
+            <td>{{jsoncontent[i]['values']}}</td>
+            <td>{{jsoncontent[i]['date']}}</td>
+          </tr>
+        {%endfor%}
+      </table>
+    </div>
+  </body>
+  <script>
+
+    function filterNamesBySearch() {
+      var search = document.getElementById('name-search').value.toUpperCase();
+      console.log(search);
+      var elems = document.getElementsByClassName('data-row');
+      for (var i = 0; i < elems.length; i++) {
+        var nameElem = elems[i].getElementsByTagName('td')[0];
+        if (nameElem) {
+          var elemName = nameElem.textContent.toUpperCase();
+          if (elemName.indexOf(search) > -1) {
+            elems[i].style.display = '';
+          }
+          else {
+            elems[i].style.display = 'none';
+          }
+        }
+      }
+    }
+
+    function filterParameters() {
+      var selectTool = document.getElementById('filter-param');
+      var param = selectTool.value;
+      var elems = document.getElementsByClassName('data-row');
+      for (var i = 0; i < elems.length; i++) {
+        var paramElem = elems[i].getElementsByTagName('td')[1];
+        console.log(paramElem);
+        if (paramElem) {
+          var elemParam = paramElem.textContent;
+          if (elemParam == param || param == 'all') {
+            elems[i].style.display = '';
+          }
+          else {
+            elems[i].style.display = 'none';
+          }
+        }
+      }
+    }
+
+
+    function formBubblesFromData(data) {
+      var prepData = [];
+      for (id in data) {
+        sample = data[id];
+        var bubble = {
+          name: sample.location.loc + ": " + sample.params[0],
+          param: sample.params[0],
+          value: sample.values,
+        }
+        prepData.push(bubble);
+      }
+      return prepData;
+    }
+
+    function getDataPoints() {
+      //cleaning json content
+      var data = JSON.parse('{{ jsoncontent | tojson | safe }}');
+      return formBubblesFromData(data);
+    }
+
+    //use Data from flask and that index will be nth-child
+    function getParamFilteredBubbles(prepData, param) {
+      if (param == 'all') {
+        return prepData;
+      }
+      var newData = [];
+      for (id in prepData) {
+        var sample = prepData[id];
+        if (sample.param === param) {
+          newData.push(sample);
+        }
+      }
+      return newData;
+    }
+  </script>
+</html>

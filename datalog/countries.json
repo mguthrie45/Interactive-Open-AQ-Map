@@ -1,0 +1,2407 @@
+{
+   "meta": {
+      "name": "openaq-api",
+      "license": "CC BY 4.0d",
+      "website": "https://u50g7n0cbj.execute-api.us-east-1.amazonaws.com/",
+      "page": 1,
+      "limit": 200,
+      "found": 130
+   },
+   "results": [
+      {
+         "code": "AD",
+         "name": "Andorra",
+         "locations": 3,
+         "firstUpdated": "2017-09-14T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "so2"
+         ],
+         "count": 93301027,
+         "cities": 2,
+         "sources": 1
+      },
+      {
+         "code": "AE",
+         "name": "United Arab Emirates",
+         "locations": 5,
+         "firstUpdated": "2017-12-26T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:47+00:00",
+         "parameters": [
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 5764752629,
+         "cities": 3,
+         "sources": 5
+      },
+      {
+         "code": "AF",
+         "name": "Afghanistan",
+         "locations": 2,
+         "firstUpdated": "2019-10-20T22:30:00+00:00",
+         "lastUpdated": "2021-02-01T11:30:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 51956121,
+         "cities": 2,
+         "sources": 3
+      },
+      {
+         "code": "AM",
+         "name": "Armenia",
+         "locations": 2,
+         "firstUpdated": "2021-01-21T00:00:06+00:00",
+         "lastUpdated": "2021-02-01T13:29:16+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 7459800876,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "AO",
+         "name": "Angola",
+         "locations": 2,
+         "firstUpdated": "2021-01-21T00:02:35+00:00",
+         "lastUpdated": "2021-02-01T13:29:42+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 3842638218,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "AR",
+         "name": "Argentina",
+         "locations": 4,
+         "firstUpdated": "2014-10-02T12:00:00+00:00",
+         "lastUpdated": "2017-10-18T15:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "pm10",
+            "pm25"
+         ],
+         "count": 10800,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "AT",
+         "name": "Austria",
+         "locations": 319,
+         "firstUpdated": "2016-11-18T05:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 39710256984,
+         "cities": 16,
+         "sources": 4
+      },
+      {
+         "code": "AU",
+         "name": "Australia",
+         "locations": 339,
+         "firstUpdated": "2016-02-16T01:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 454207132099,
+         "cities": 69,
+         "sources": 9
+      },
+      {
+         "code": "BA",
+         "name": "Bosnia and Herz.",
+         "locations": 47,
+         "firstUpdated": "2016-04-26T21:30:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 102880409460,
+         "cities": 9,
+         "sources": 3
+      },
+      {
+         "code": "BD",
+         "name": "Bangladesh",
+         "locations": 2,
+         "firstUpdated": "2014-05-24T03:00:00+00:00",
+         "lastUpdated": "2016-11-09T16:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 7213,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "BE",
+         "name": "Belgium",
+         "locations": 134,
+         "firstUpdated": "2016-11-17T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:53+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 36144308072,
+         "cities": 12,
+         "sources": 4
+      },
+      {
+         "code": "BF",
+         "name": "Burkina Faso",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T09:26:38+00:00",
+         "lastUpdated": "2021-02-01T12:32:03+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 503622036,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "BG",
+         "name": "Bulgaria",
+         "locations": 46,
+         "firstUpdated": "2016-11-09T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:04+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 12016426999,
+         "cities": 17,
+         "sources": 6
+      },
+      {
+         "code": "BH",
+         "name": "Bahrain",
+         "locations": 1,
+         "firstUpdated": "2016-12-01T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "o3",
+            "pm25"
+         ],
+         "count": 36530118,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "BJ",
+         "name": "Benin",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:00:02+00:00",
+         "lastUpdated": "2021-02-01T13:28:02+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 3944198838,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "BK",
+         "name": "BK",
+         "locations": 1,
+         "firstUpdated": "2018-07-09T00:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 34034059,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "BM",
+         "name": "BM",
+         "locations": 1,
+         "firstUpdated": "2019-06-16T06:30:00+00:00",
+         "lastUpdated": "2021-02-01T10:30:00+00:00",
+         "parameters": [
+            "o3",
+            "pm25"
+         ],
+         "count": 64911635,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "BO",
+         "name": "Bolivia",
+         "locations": 2,
+         "firstUpdated": "2021-01-21T00:02:31+00:00",
+         "lastUpdated": "2021-02-01T13:28:44+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4105589130,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "BR",
+         "name": "Brazil",
+         "locations": 224,
+         "firstUpdated": "2016-01-30T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:56+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 149129521448,
+         "cities": 41,
+         "sources": 2
+      },
+      {
+         "code": "BZ",
+         "name": "Belize",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:02:04+00:00",
+         "lastUpdated": "2021-02-01T13:28:04+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4235288058,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "CA",
+         "name": "Canada",
+         "locations": 556,
+         "firstUpdated": "2016-03-06T19:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 1400726655685,
+         "cities": 12,
+         "sources": 14
+      },
+      {
+         "code": "CD",
+         "name": "Dem. Rep. Congo",
+         "locations": 3,
+         "firstUpdated": "2021-01-21T00:00:04+00:00",
+         "lastUpdated": "2021-02-01T13:29:48+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4577940576,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "CE",
+         "name": "CE",
+         "locations": 1,
+         "firstUpdated": "2019-06-25T21:30:00+00:00",
+         "lastUpdated": "2021-01-13T13:30:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 17045,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "CH",
+         "name": "Switzerland",
+         "locations": 40,
+         "firstUpdated": "2017-09-21T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:28+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 38954749245,
+         "cities": 15,
+         "sources": 8
+      },
+      {
+         "code": "CI",
+         "name": "C\u00f4te d'Ivoire",
+         "locations": 3,
+         "firstUpdated": "2020-03-15T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:16:49+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4355969657,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "CL",
+         "name": "Chile",
+         "locations": 173,
+         "firstUpdated": "2015-09-23T12:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:37+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 38618993663,
+         "cities": 72,
+         "sources": 37
+      },
+      {
+         "code": "CN",
+         "name": "China",
+         "locations": 2037,
+         "firstUpdated": "2013-11-26T08:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:22+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 324889734135,
+         "cities": 391,
+         "sources": 7
+      },
+      {
+         "code": "CO",
+         "name": "Colombia",
+         "locations": 72,
+         "firstUpdated": "2016-03-17T15:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:54+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 67487388874,
+         "cities": 11,
+         "sources": 4
+      },
+      {
+         "code": "CR",
+         "name": "Costa Rica",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:03:02+00:00",
+         "lastUpdated": "2021-02-01T13:29:01+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4600826100,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "CS",
+         "name": "CS",
+         "locations": 1,
+         "firstUpdated": "2019-10-28T18:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33978395,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "CW",
+         "name": "Curacao",
+         "locations": 1,
+         "firstUpdated": "2018-07-27T16:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "o3",
+            "pm25"
+         ],
+         "count": 38279754,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "CY",
+         "name": "Cyprus",
+         "locations": 3,
+         "firstUpdated": "2020-04-20T16:00:00+00:00",
+         "lastUpdated": "2021-02-01T09:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm25",
+            "so2"
+         ],
+         "count": 228942290,
+         "cities": 2,
+         "sources": 3
+      },
+      {
+         "code": "CZ",
+         "name": "Czechia",
+         "locations": 115,
+         "firstUpdated": "2016-11-21T12:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:36+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 28692369901,
+         "cities": 15,
+         "sources": 3
+      },
+      {
+         "code": "DE",
+         "name": "Germany",
+         "locations": 518,
+         "firstUpdated": "2016-11-21T11:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 90966420806,
+         "cities": 23,
+         "sources": 4
+      },
+      {
+         "code": "DK",
+         "name": "Denmark",
+         "locations": 22,
+         "firstUpdated": "2016-11-21T11:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:56+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 24622048606,
+         "cities": 7,
+         "sources": 3
+      },
+      {
+         "code": "DZ",
+         "name": "Algeria",
+         "locations": 1,
+         "firstUpdated": "2019-06-15T22:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33544143,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "EC",
+         "name": "Ecuador",
+         "locations": 8,
+         "firstUpdated": "2020-12-29T05:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "pm25",
+            "so2"
+         ],
+         "count": 846017637,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "EE",
+         "name": "Estonia",
+         "locations": 9,
+         "firstUpdated": "2020-04-20T20:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "pm25",
+            "so2"
+         ],
+         "count": 369231293,
+         "cities": 6,
+         "sources": 1
+      },
+      {
+         "code": "ES",
+         "name": "Spain",
+         "locations": 565,
+         "firstUpdated": "2016-11-17T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:55+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 90158228946,
+         "cities": 59,
+         "sources": 5
+      },
+      {
+         "code": "ET",
+         "name": "Ethiopia",
+         "locations": 3,
+         "firstUpdated": "2016-08-18T22:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:30+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 3549980870,
+         "cities": 2,
+         "sources": 4
+      },
+      {
+         "code": "FI",
+         "name": "Finland",
+         "locations": 59,
+         "firstUpdated": "2016-12-10T19:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:01+00:00",
+         "parameters": [
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 16294679870,
+         "cities": 16,
+         "sources": 3
+      },
+      {
+         "code": "FR",
+         "name": "France",
+         "locations": 708,
+         "firstUpdated": "2016-11-21T11:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:59+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 86621722516,
+         "cities": 117,
+         "sources": 4
+      },
+      {
+         "code": "GB",
+         "name": "United Kingdom",
+         "locations": 284,
+         "firstUpdated": "2015-08-12T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:59+00:00",
+         "parameters": [
+            "co2",
+            "no",
+            "no2",
+            "nox",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 293353359118,
+         "cities": 112,
+         "sources": 7
+      },
+      {
+         "code": "GH",
+         "name": "Ghana",
+         "locations": 21,
+         "firstUpdated": "2006-11-13T06:30:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:59+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 26285871770,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "GI",
+         "name": "Gibraltar",
+         "locations": 3,
+         "firstUpdated": "2016-12-10T20:00:00+00:00",
+         "lastUpdated": "2018-04-25T18:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "so2"
+         ],
+         "count": 40226,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "GL",
+         "name": "Greenland",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:01:40+00:00",
+         "lastUpdated": "2021-02-01T13:29:49+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4588680198,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "GM",
+         "name": "Gambia",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:02:52+00:00",
+         "lastUpdated": "2021-02-01T13:29:41+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4606244898,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "GN",
+         "name": "Guinea",
+         "locations": 1,
+         "firstUpdated": "2020-05-01T02:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33889949,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "GR",
+         "name": "Greece",
+         "locations": 104,
+         "firstUpdated": "2020-04-20T18:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 356185846227,
+         "cities": 5,
+         "sources": 2
+      },
+      {
+         "code": "GT",
+         "name": "Guatemala",
+         "locations": 11,
+         "firstUpdated": "2019-10-20T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:57+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 32927994002,
+         "cities": 2,
+         "sources": 4
+      },
+      {
+         "code": "HK",
+         "name": "Hong Kong",
+         "locations": 16,
+         "firstUpdated": "2018-01-02T22:00:00+00:00",
+         "lastUpdated": "2020-07-10T01:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "pm25",
+            "so2"
+         ],
+         "count": 1727055,
+         "cities": 9,
+         "sources": 1
+      },
+      {
+         "code": "HN",
+         "name": "Honduras",
+         "locations": 2,
+         "firstUpdated": "2021-01-21T00:00:09+00:00",
+         "lastUpdated": "2021-02-01T13:29:36+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 7521322980,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "HR",
+         "name": "Croatia",
+         "locations": 21,
+         "firstUpdated": "2016-11-17T22:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:28:30+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 14213597549,
+         "cities": 12,
+         "sources": 2
+      },
+      {
+         "code": "HU",
+         "name": "Hungary",
+         "locations": 26,
+         "firstUpdated": "2016-12-12T14:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:44+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 7396518779,
+         "cities": 12,
+         "sources": 2
+      },
+      {
+         "code": "ID",
+         "name": "Indonesia",
+         "locations": 16,
+         "firstUpdated": "2014-01-22T00:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:41+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 35969801323,
+         "cities": 3,
+         "sources": 5
+      },
+      {
+         "code": "IE",
+         "name": "Ireland",
+         "locations": 49,
+         "firstUpdated": "2016-12-10T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 88160980185,
+         "cities": 16,
+         "sources": 2
+      },
+      {
+         "code": "IL",
+         "name": "Israel",
+         "locations": 679,
+         "firstUpdated": "2015-02-13T10:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:46+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 25625875084,
+         "cities": 14,
+         "sources": 3
+      },
+      {
+         "code": "IN",
+         "name": "India",
+         "locations": 592,
+         "firstUpdated": "2013-12-14T10:30:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:59+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 436089450313,
+         "cities": 146,
+         "sources": 11
+      },
+      {
+         "code": "IQ",
+         "name": "Iraq",
+         "locations": 1,
+         "firstUpdated": "2019-03-10T16:00:00+00:00",
+         "lastUpdated": "2021-02-01T08:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 31687098,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "IS",
+         "name": "Iceland",
+         "locations": 20,
+         "firstUpdated": "2020-02-28T01:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 10463428144,
+         "cities": 8,
+         "sources": 2
+      },
+      {
+         "code": "IT",
+         "name": "Italy",
+         "locations": 571,
+         "firstUpdated": "2017-11-01T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:58+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 118551672577,
+         "cities": 126,
+         "sources": 5
+      },
+      {
+         "code": "IZ",
+         "name": "IZ",
+         "locations": 1,
+         "firstUpdated": "2019-10-28T18:00:00+00:00",
+         "lastUpdated": "2021-02-01T10:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 26197589,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "JO",
+         "name": "Jordan",
+         "locations": 2,
+         "firstUpdated": "2019-10-21T02:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33343027,
+         "cities": 2,
+         "sources": 3
+      },
+      {
+         "code": "JP",
+         "name": "Japan",
+         "locations": 2,
+         "firstUpdated": "2021-01-13T21:54:05+00:00",
+         "lastUpdated": "2021-02-01T13:29:40+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 8865801132,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "KE",
+         "name": "Kenya",
+         "locations": 8,
+         "firstUpdated": "2018-04-18T18:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:56+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 23806763110,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "KG",
+         "name": "Kyrgyzstan",
+         "locations": 11,
+         "firstUpdated": "2019-03-08T20:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:48+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 37180206931,
+         "cities": 2,
+         "sources": 4
+      },
+      {
+         "code": "KR",
+         "name": "South Korea",
+         "locations": 98,
+         "firstUpdated": "2020-12-16T02:22:32+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 275513454164,
+         "cities": 0,
+         "sources": 2
+      },
+      {
+         "code": "KU",
+         "name": "KU",
+         "locations": 1,
+         "firstUpdated": "2017-02-17T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33515859,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "KV",
+         "name": "KV",
+         "locations": 1,
+         "firstUpdated": "2020-06-16T14:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 30873909,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "KW",
+         "name": "Kuwait",
+         "locations": 6,
+         "firstUpdated": "2021-01-21T00:01:36+00:00",
+         "lastUpdated": "2021-02-01T13:29:39+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 20920024296,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "KZ",
+         "name": "Kazakhstan",
+         "locations": 10,
+         "firstUpdated": "2018-07-27T16:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:47+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 29458005227,
+         "cities": 2,
+         "sources": 4
+      },
+      {
+         "code": "LA",
+         "name": "Laos",
+         "locations": 3,
+         "firstUpdated": "2019-06-16T02:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:18+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 7919931239,
+         "cities": 1,
+         "sources": 4
+      },
+      {
+         "code": "LB",
+         "name": "Lebanon",
+         "locations": 4,
+         "firstUpdated": "2021-01-21T00:00:10+00:00",
+         "lastUpdated": "2021-02-01T13:28:22+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 12386124180,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "LK",
+         "name": "Sri Lanka",
+         "locations": 6,
+         "firstUpdated": "2017-09-25T23:30:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:08+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 15024611238,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "LT",
+         "name": "Lithuania",
+         "locations": 18,
+         "firstUpdated": "2017-09-21T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:14+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 2804247044,
+         "cities": 8,
+         "sources": 2
+      },
+      {
+         "code": "LU",
+         "name": "Luxembourg",
+         "locations": 7,
+         "firstUpdated": "2017-09-22T10:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "pm25",
+            "so2"
+         ],
+         "count": 636204873,
+         "cities": 3,
+         "sources": 1
+      },
+      {
+         "code": "LV",
+         "name": "Latvia",
+         "locations": 4,
+         "firstUpdated": "2017-09-22T10:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "so2"
+         ],
+         "count": 220909831,
+         "cities": 4,
+         "sources": 1
+      },
+      {
+         "code": "MA",
+         "name": "Morocco",
+         "locations": 3,
+         "firstUpdated": "2020-12-22T06:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:28:53+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 7858918378,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "MG",
+         "name": "Madagascar",
+         "locations": 2,
+         "firstUpdated": "2016-11-09T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:08+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4539079223,
+         "cities": 1,
+         "sources": 4
+      },
+      {
+         "code": "MK",
+         "name": "Macedonia",
+         "locations": 16,
+         "firstUpdated": "2016-12-10T20:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:12+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 5060874207,
+         "cities": 14,
+         "sources": 2
+      },
+      {
+         "code": "ML",
+         "name": "Mali",
+         "locations": 1,
+         "firstUpdated": "2020-03-16T05:00:00+00:00",
+         "lastUpdated": "2021-02-01T06:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 27186850,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "MM",
+         "name": "Myanmar",
+         "locations": 13,
+         "firstUpdated": "2021-01-21T00:00:03+00:00",
+         "lastUpdated": "2021-02-01T13:29:49+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 44483749170,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "MN",
+         "name": "Mongolia",
+         "locations": 51,
+         "firstUpdated": "2015-09-01T00:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:12+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 30920366713,
+         "cities": 24,
+         "sources": 6
+      },
+      {
+         "code": "MR",
+         "name": "Mauritania",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:01:21+00:00",
+         "lastUpdated": "2021-02-01T13:28:46+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4154999700,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "MT",
+         "name": "Malta",
+         "locations": 4,
+         "firstUpdated": "2017-09-22T10:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "pm25",
+            "so2"
+         ],
+         "count": 459955737,
+         "cities": 4,
+         "sources": 1
+      },
+      {
+         "code": "MX",
+         "name": "Mexico",
+         "locations": 321,
+         "firstUpdated": "2016-03-06T19:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:59+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 582502360755,
+         "cities": 95,
+         "sources": 8
+      },
+      {
+         "code": "MY",
+         "name": "Malaysia",
+         "locations": 10,
+         "firstUpdated": "2021-01-21T00:00:14+00:00",
+         "lastUpdated": "2021-02-01T13:29:57+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 33912934725,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "NE",
+         "name": "Niger",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:01:48+00:00",
+         "lastUpdated": "2021-02-01T13:29:52+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 2913229908,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "NG",
+         "name": "Nigeria",
+         "locations": 10,
+         "firstUpdated": "2014-03-30T10:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:55+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 29605193012,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "NL",
+         "name": "Netherlands",
+         "locations": 112,
+         "firstUpdated": "2015-09-10T03:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:49+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 77082259402,
+         "cities": 62,
+         "sources": 10
+      },
+      {
+         "code": "NO",
+         "name": "Norway",
+         "locations": 95,
+         "firstUpdated": "2016-12-02T10:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:53+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 32599403700,
+         "cities": 38,
+         "sources": 2
+      },
+      {
+         "code": "NP",
+         "name": "Nepal",
+         "locations": 12,
+         "firstUpdated": "2017-03-02T23:15:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:29+00:00",
+         "parameters": [
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 29366644208,
+         "cities": 2,
+         "sources": 4
+      },
+      {
+         "code": "NZ",
+         "name": "New Zealand",
+         "locations": 8,
+         "firstUpdated": "2021-01-13T21:55:39+00:00",
+         "lastUpdated": "2021-02-01T13:29:34+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 33868348765,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "PE",
+         "name": "Peru",
+         "locations": 25,
+         "firstUpdated": "2016-03-04T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:33+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 35391384977,
+         "cities": 2,
+         "sources": 5
+      },
+      {
+         "code": "PH",
+         "name": "Philippines",
+         "locations": 4,
+         "firstUpdated": "2014-02-22T01:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:31+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 10666627096,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "PK",
+         "name": "Pakistan",
+         "locations": 5,
+         "firstUpdated": "2019-05-22T22:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:21+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 2522612588,
+         "cities": 1,
+         "sources": 7
+      },
+      {
+         "code": "PL",
+         "name": "Poland",
+         "locations": 320,
+         "firstUpdated": "2016-01-30T00:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:05+00:00",
+         "parameters": [
+            "bc",
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 39572348441,
+         "cities": 193,
+         "sources": 4
+      },
+      {
+         "code": "PR",
+         "name": "Puerto Rico",
+         "locations": 7,
+         "firstUpdated": "2021-01-21T00:00:04+00:00",
+         "lastUpdated": "2021-02-01T13:29:36+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 25659040704,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "PT",
+         "name": "Portugal",
+         "locations": 76,
+         "firstUpdated": "2017-09-21T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:43+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 9063856654,
+         "cities": 16,
+         "sources": 3
+      },
+      {
+         "code": "RO",
+         "name": "Romania",
+         "locations": 136,
+         "firstUpdated": "2020-04-19T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:43+00:00",
+         "parameters": [
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 33224850340,
+         "cities": 42,
+         "sources": 2
+      },
+      {
+         "code": "RS",
+         "name": "Serbia",
+         "locations": 23,
+         "firstUpdated": "2017-09-22T09:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:28:43+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 6613233081,
+         "cities": 15,
+         "sources": 2
+      },
+      {
+         "code": "RU",
+         "name": "Russia",
+         "locations": 54,
+         "firstUpdated": "2017-06-08T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:28+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 21987226618,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "RW",
+         "name": "Rwanda",
+         "locations": 1,
+         "firstUpdated": "2020-12-28T22:45:00+00:00",
+         "lastUpdated": "2021-02-01T12:50:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "pm10",
+            "pm25"
+         ],
+         "count": 1354816900,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "SA",
+         "name": "Saudi Arabia",
+         "locations": 5,
+         "firstUpdated": "2019-07-15T19:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:53+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 9166452797,
+         "cities": 2,
+         "sources": 5
+      },
+      {
+         "code": "SD",
+         "name": "Sudan",
+         "locations": 2,
+         "firstUpdated": "2020-08-02T21:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:28:15+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 3174460660,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "SE",
+         "name": "Sweden",
+         "locations": 78,
+         "firstUpdated": "2017-02-08T01:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:34+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 26860658700,
+         "cities": 15,
+         "sources": 3
+      },
+      {
+         "code": "SG",
+         "name": "Singapore",
+         "locations": 1,
+         "firstUpdated": "2015-08-02T01:00:00+00:00",
+         "lastUpdated": "2015-09-25T00:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 1275,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "SI",
+         "name": "Slovenia",
+         "locations": 17,
+         "firstUpdated": "2017-08-21T19:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:58+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 5108449307,
+         "cities": 16,
+         "sources": 2
+      },
+      {
+         "code": "SK",
+         "name": "Slovakia",
+         "locations": 38,
+         "firstUpdated": "2017-09-21T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "pm25",
+            "so2"
+         ],
+         "count": 3422009668,
+         "cities": 8,
+         "sources": 1
+      },
+      {
+         "code": "SN",
+         "name": "Senegal",
+         "locations": 5,
+         "firstUpdated": "2021-01-21T00:00:18+00:00",
+         "lastUpdated": "2021-02-01T13:28:54+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 7829027646,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "SU",
+         "name": "SU",
+         "locations": 2,
+         "firstUpdated": "2020-05-14T14:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 60538850,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "TD",
+         "name": "Chad",
+         "locations": 2,
+         "firstUpdated": "2020-08-02T20:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 34115244,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "TG",
+         "name": "Togo",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:02:52+00:00",
+         "lastUpdated": "2021-01-27T17:55:01+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 794462568,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "TH",
+         "name": "Thailand",
+         "locations": 142,
+         "firstUpdated": "2015-06-25T02:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 247640903943,
+         "cities": 36,
+         "sources": 2
+      },
+      {
+         "code": "TI",
+         "name": "TI",
+         "locations": 1,
+         "firstUpdated": "2019-10-28T18:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 30071771,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "TJ",
+         "name": "Tajikistan",
+         "locations": 1,
+         "firstUpdated": "2019-10-20T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T12:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33422619,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "TL",
+         "name": "Timor-Leste",
+         "locations": 1,
+         "firstUpdated": "2021-01-21T00:02:53+00:00",
+         "lastUpdated": "2021-02-01T13:26:45+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4154948772,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "TM",
+         "name": "Turkmenistan",
+         "locations": 1,
+         "firstUpdated": "2019-10-20T22:00:00+00:00",
+         "lastUpdated": "2021-02-01T08:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 33437722,
+         "cities": 1,
+         "sources": 1
+      },
+      {
+         "code": "TR",
+         "name": "Turkey",
+         "locations": 171,
+         "firstUpdated": "2016-06-21T16:00:00+00:00",
+         "lastUpdated": "2018-10-13T21:00:00+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm10",
+            "so2"
+         ],
+         "count": 5632682,
+         "cities": 43,
+         "sources": 1
+      },
+      {
+         "code": "TT",
+         "name": "Trinidad and Tobago",
+         "locations": 3,
+         "firstUpdated": "2021-01-21T00:02:32+00:00",
+         "lastUpdated": "2021-02-01T13:29:16+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 10379725098,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "TW",
+         "name": "Taiwan",
+         "locations": 87,
+         "firstUpdated": "2016-12-20T19:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:54+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 33129167205,
+         "cities": 22,
+         "sources": 3
+      },
+      {
+         "code": "TX",
+         "name": "TX",
+         "locations": 1,
+         "firstUpdated": "2019-10-28T18:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 28663133,
+         "cities": 1,
+         "sources": 2
+      },
+      {
+         "code": "UA",
+         "name": "Ukraine",
+         "locations": 6,
+         "firstUpdated": "2021-01-21T00:00:12+00:00",
+         "lastUpdated": "2021-02-01T13:29:29+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 25535318664,
+         "cities": 0,
+         "sources": 1
+      },
+      {
+         "code": "UG",
+         "name": "Uganda",
+         "locations": 6,
+         "firstUpdated": "2017-02-18T01:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:50+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 16117526920,
+         "cities": 1,
+         "sources": 4
+      },
+      {
+         "code": "US",
+         "name": "United States of America",
+         "locations": 12520,
+         "firstUpdated": "2013-03-07T00:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:01+00:00",
+         "parameters": [
+            "bc",
+            "ch4",
+            "co",
+            "co2",
+            "no",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "pressure",
+            "relativehumidity",
+            "so2",
+            "temperature",
+            "ufp",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 38263797455115,
+         "cities": 810,
+         "sources": 167
+      },
+      {
+         "code": "UZ",
+         "name": "Uzbekistan",
+         "locations": 1,
+         "firstUpdated": "2018-11-27T22:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "o3",
+            "pm25"
+         ],
+         "count": 66948148,
+         "cities": 1,
+         "sources": 3
+      },
+      {
+         "code": "VM",
+         "name": "VM",
+         "locations": 2,
+         "firstUpdated": "2016-11-09T17:00:00+00:00",
+         "lastUpdated": "2021-02-01T11:00:00+00:00",
+         "parameters": [
+            "pm25"
+         ],
+         "count": 67509765,
+         "cities": 1,
+         "sources": 4
+      },
+      {
+         "code": "VN",
+         "name": "Vietnam",
+         "locations": 9,
+         "firstUpdated": "2015-05-04T02:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:29:43+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 22144692164,
+         "cities": 2,
+         "sources": 3
+      },
+      {
+         "code": "XK",
+         "name": "Kosovo",
+         "locations": 16,
+         "firstUpdated": "2016-04-08T20:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:28:28+00:00",
+         "parameters": [
+            "co",
+            "no2",
+            "o3",
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 4838155523,
+         "cities": 8,
+         "sources": 4
+      },
+      {
+         "code": "ZA",
+         "name": "South Africa",
+         "locations": 16,
+         "firstUpdated": "2017-08-10T23:00:00+00:00",
+         "lastUpdated": "2021-02-01T13:30:00+00:00",
+         "parameters": [
+            "pm1",
+            "pm10",
+            "pm25",
+            "so2",
+            "um010",
+            "um025",
+            "um100"
+         ],
+         "count": 27292960529,
+         "cities": 1,
+         "sources": 2
+      }
+   ]
+}

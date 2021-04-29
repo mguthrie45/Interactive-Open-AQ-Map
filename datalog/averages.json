@@ -1,0 +1,20 @@
+{
+   "detail": [
+      {
+         "loc": [
+            "query",
+            "spatial"
+         ],
+         "msg": "field required",
+         "type": "value_error.missing"
+      },
+      {
+         "loc": [
+            "query",
+            "temporal"
+         ],
+         "msg": "field required",
+         "type": "value_error.missing"
+      }
+   ]
+}

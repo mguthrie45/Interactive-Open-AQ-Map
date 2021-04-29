@@ -1,0 +1,55 @@
+html, body {
+  width: 99%;
+  height: 99%;
+  background-color: black;
+}
+
+canvas {
+  padding: 0;
+  display: block;
+  position: absolute;
+}
+
+#toolbar {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 50px;
+}
+
+.button {
+  display: flex;
+  width: justify-content;
+  height: 50px;
+}
+
+.button span {
+  font-size: 18px;
+  font-family: "calibri";
+  text-align: center;
+  color: white;
+}
+
+.button-child {
+  height: 35px;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: black;
+  font-family: "Arial";
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  width: justify-content;
+  transition: .3s;
+}
+.button-child:hover {
+  background-color: #202020;
+}
+
+#canv {
+  position: absolute;
+}
