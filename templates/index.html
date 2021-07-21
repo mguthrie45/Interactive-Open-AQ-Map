@@ -16,18 +16,18 @@
       </select>
     </div>
     <div class="button">
-      <span class="button-child">Select Tool</span>
+      <form action="/data_table">
+        <button class="button-child" type="submit">View Data Table</button>
+      </form>
     </div>
-    <form action="/data_table">
-      <button class="button-child" type="submit">View Data Table</button>
-    </form>
     <div class="button">
       <span class="button-child">Sample Size</span>
     </div>
   </div>
   <body style="background-color: black;">
-    <canvas id="canv"></canvas>
-    <div id="map" style="display:block;">
+    <div id="map-container">
+      <div id="map">
+      </div>
     </div>
   </body>
   <script src="https://d3js.org/d3.v3.js"></script>
@@ -63,7 +63,7 @@
 */
 
   var map;
-  var canv = document.getElementById('canv');
+  var mapElem = document.getElementById('map');
   const DATA = getDataPoints();
   const DEFAULTSCOPE = 'usa';
 
@@ -71,16 +71,12 @@
   //Event listeners
   $(document).ready(initMap(DEFAULTSCOPE, DATA));
   window.addEventListener('resize', function (event) {
-    canv.width = window.innerWidth;
-    canv.height = window.innerHeight;
     map.resize();
   }, false);
   window.addEventListener('change', remapFilteredBubbles);
 
   //main function for creating the map. changes map global variable
   function initMap(scope, dataPoints) {
-    canv.width = window.innerWidth;
-    canv.height = window.innerHeight;
 
     map = new Datamap({
       element: document.getElementById('map'),
@@ -115,7 +111,7 @@
 
       responsive: true,
     });
-
+    mapElem.style['padding-bottom'] = '45%';
     remapDefaultBubbles(dataPoints);
     restyleBubbles();
   }

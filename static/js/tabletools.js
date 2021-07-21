@@ -1,3 +1,8 @@
+var paramFilterApplied = false;
+var nameFilterApplied = false;
+var latitudeFilterApplied = false;
+var longitudeFilterApplied = false;
+
 function filterParameters() {
   var selectTool = document.getElementById('filter-param');
   var param = selectTool.value;
@@ -14,6 +19,12 @@ function filterParameters() {
       }
     }
   }
+  if (param == 'all') {
+    paramFilterApplied = false;
+  }
+  else {
+    paramFilterApplied = true;
+  }
 }
 
 function filterNamesBySearch() {
@@ -29,6 +40,46 @@ function filterNamesBySearch() {
       else {
         elems[i].style.display = 'none';
       }
+    }
+  }
+  if (search == '') {
+    nameFilterApplied = false;
+  }
+  else {
+    nameFilterApplied = true;
+  }
+}
+
+function filterCoordinates() {
+  var latLowSelectTool = document.getElementById('latitude-low');
+  var latHighSelectTool = document.getElementById('latitude-high');
+  var longLowSelectTool = document.getElementById('longitude-low');
+  var longHighSelectTool = document.getElementById('longitude-high');
+  var latLow = latLowSelectTool.value;
+  var latHigh = latHighSelectTool.value;
+  var longLow = longLowSelectTool.value;
+  var longHigh = longHighSelectTool.value;
+
+  console.log(latLow);
+
+  var elems = document.getElementsByClassName('data-row');
+  for (var i = 0; i < elems.length; i++) {
+    elems[i].style.display = '';
+
+    var latitude = elems[i].getElementsByTagName('td')[2].textContent;
+    var longitude = elems[i].getElementsByTagName('td')[3].textContent;
+
+    if (latLow != '' && latitude < parseInt(latLow)) {
+        elems[i].style.display = 'none';
+    }
+    if (latHigh != '' && latitude > parseInt(latHigh)) {
+      elems[i].style.display = 'none';
+    }
+    if (longLow != '' && longitude < parseInt(longLow)) {
+      elems[i].style.display = 'none';
+    }
+    if (longHigh != '' && longitude > parseInt(longHigh)) {
+      elems[i].style.display = 'none';
     }
   }
 }

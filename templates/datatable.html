@@ -5,6 +5,7 @@
     <meta name="description" content="Air Quality US Map">
     <meta name="keywords" content="Air Quality US Map">
     <link rel='stylesheet' type='text/css' href="{{ url_for('static', filename='css/datatable.css') }}"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div id='cont'>
@@ -23,38 +24,45 @@
           </select>
         </div>
         <div class='tool'>
-          <input id='name-search' class="tool-child" placeholder='Search for name' onkeyup='filterNamesBySearch()'>
-
-          </input>
+          <input id='name-search' class='tool-child' placeholder='Search for name' onkeyup='filterNamesBySearch()'></input>
         </div>
-        <div class='tool'>
-          <select name="params" class="tool-child">
-           {%for i in range(1, jsoninfo[0] + 1)%}
-              <option value="{{ jsoninfo[i] }}">{{ jsoninfo[i] }}</option>
-            {%endfor%}
-          </select>
+        <div class='tool' id='latitude'>
+          <span style='display: block;'>Latitude</span>
+          <input id='latitude-low' class='tool-child' placeholder='low'></input>
+          <input id='latitude-high' class='tool-child' placeholder='high'></input>
+          <button onclick='filterCoordinates()'>
+
+          </button>
+        </div>
+        <div class='tool' id='longitude'>
+          <span style='display: block;'>Longitude</span>
+          <input id='longitude-low' class='tool-child' placeholder='low'></input>
+          <input id='longitude-high' class='tool-child' placeholder='high'></input>
+          <button onclick='filterCoordinates()'>
+
+          </button>
         </div>
       </div>
-      <table id='data-table'>
-        <tr id='header'>
-          <th>Name</th>
-          <th>Parameter</th>
-          <th>Latitude</th>
-          <th>Longitude</th>
-          <th>Level</th>
-          <th>Date</th>
-        </tr>
-        {%for i in jsoncontent%}
-          <tr class='data-row'>
-            <td>{{jsoncontent[i]['location']['loc']}}</td>
-            <td>{{jsoncontent[i]['params'][0]}}</td>
-            <td>{{jsoncontent[i]['location']['coords'][0]}}</td>
-            <td>{{jsoncontent[i]['location']['coords'][1]}}</td>
-            <td>{{jsoncontent[i]['values']}}</td>
-            <td>{{jsoncontent[i]['date']}}</td>
+        <table id='data-table'>
+          <tr id='header'>
+            <th>Name</th>
+            <th>Parameter</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Level</th>
+            <th>Date</th>
           </tr>
-        {%endfor%}
-      </table>
+          {%for i in jsoncontent%}
+            <tr class='data-row'>
+              <td>{{jsoncontent[i]['location']['loc']}}</td>
+              <td>{{jsoncontent[i]['params'][0]}}</td>
+              <td>{{jsoncontent[i]['location']['coords'][0]}}</td>
+              <td>{{jsoncontent[i]['location']['coords'][1]}}</td>
+              <td>{{jsoncontent[i]['values']}}</td>
+              <td>{{jsoncontent[i]['date']}}</td>
+            </tr>
+          {%endfor%}
+        </table>
     </div>
   </body>
   <script type='text/javascript' src='../static/js/tabletools.js'></script>
